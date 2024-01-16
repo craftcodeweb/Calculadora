@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="276.0" style="-fx-border-color: #02AAB0; -fx-border-width: 3px;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculadoraController">
+   <children>
+      <TextField fx:id="resultado" editable="false" focusTraversable="false" layoutX="8.0" layoutY="6.0" prefHeight="114.0" prefWidth="261.0">
+         <font>
+            <Font size="19.0" />
+         </font></TextField>
+      <Button layoutX="205.0" layoutY="124.0" mnemonicParsing="false" onAction="#processarOperacao" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: white; -fx-background-color: #02AAB0;" text="÷">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="173.0" mnemonicParsing="false" onAction="#processarOperacao" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: white; -fx-background-color: #02AAB0;" text="x">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="222.0" mnemonicParsing="false" onAction="#processarOperacao" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: white; -fx-background-color: #02AAB0;" text="-">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="271.0" mnemonicParsing="false" onAction="#processarOperacao" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: white; -fx-background-color: #02AAB0;" text="+">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="8.0" layoutY="271.0" mnemonicParsing="false" onAction="#limpar" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: white; -fx-background-color: #02AAB0;" text="C">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="74.0" layoutY="271.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="0">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="140.0" layoutY="271.0" mnemonicParsing="false" onAction="#processarOperacao" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: white; -fx-background-color: #02AAB0;" text="=">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="8.0" layoutY="124.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="1">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="8.0" layoutY="173.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="4">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="8.0" layoutY="222.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="7">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="74.0" layoutY="222.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="8">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="74.0" layoutY="173.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="5">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="74.0" layoutY="124.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="2">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="140.0" layoutY="124.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="3">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="140.0" layoutY="173.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="6">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+      <Button layoutX="140.0" layoutY="222.0" mnemonicParsing="false" onAction="#processarNumero" prefHeight="47.0" prefWidth="64.0" style="-fx-text-fill: #02AAB0; -fx-background-color: white; -fx-border-color: #02AAB0; -fx-border-radius: 4px;" text="9">
+         <font>
+            <Font name="Arial" size="24.5" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
