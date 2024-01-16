@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.ibb.co/ZHn9PJ9/calculadora.png" width="250px" alt="Imagem da Calculadora">
+</p>
+
 # Calculadora JavaFX
 
 Este é um simples aplicativo de calculadora implementado em JavaFX. A aplicação fornece uma interface gráfica amigável para realizar operações matemáticas básicas.
